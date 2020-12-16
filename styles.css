@@ -1,0 +1,84 @@
+.containerFinal{
+    display: flex;
+    /* justify-content: center; */
+    justify-content: space-between;
+    font-size: larger;
+    flex-wrap: wrap;
+    column-count: 5;
+    gap: 20px;
+    
+}
+
+.container{
+    text-align: center;
+    height: 500px;
+    width: 350px;
+    /* border: 2px solid black; */
+    box-shadow:  3px 3px 5px 4px rgb(126, 120, 120);
+    border-radius: 10px;
+}
+
+.properties {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 130px;
+    /* border: 2px solid rgb(46, 38, 38); */
+    box-shadow:  1px 1px 3px 2px rgb(95, 88, 88);
+    border-radius: 5px;
+    font-weight: bold;
+    justify-content: space-around;
+   
+}
+.location{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 300px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    box-shadow:  1px 1px 3px 2px rgb(95, 88, 88);
+    text-decoration: solid ;
+    color: rgb(12, 1, 1);
+    margin: 5px auto;
+    font-weight: bold;
+    justify-content: space-around;
+}
+.linkToCard{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 200px;
+    /* border: 2px solid black; */
+    border-radius: 5px;
+    box-shadow:  1px 1px 3px 2px rgb(95, 88, 88);
+    text-decoration: solid ;
+    color: rgb(12, 1, 1);
+    margin: 5px auto;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.flexClass{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    margin: 10px;
+}
+img {
+    /* border: 2px solid rgb(46, 38, 38); */
+    border-radius: 5px;
+    box-shadow:  1px 1px 3px 2px rgb(61, 46, 46);
+}
+.alive {
+    color: green;
+    border: o.5px solid green;
+}
+
+.dead {
+    color: red;
+    border: o.5px solid red;
+
+}
